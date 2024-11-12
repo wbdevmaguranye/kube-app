@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: maguranye/vprofiledb:V1
+        image: maguranye/vprofiledb
         volumeMounts:
         # Fixed typo here
         - mountPath: /var/lib/mysql
